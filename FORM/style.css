@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("./image/reg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.register{
+    margin-left: 500px;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+}
+
+form#registerform{
+    margin: 40px;
+}
+
+label{
+    font-family: sans-serif ;
+    font-size: 18px;
+}
+
+input#name,#email,#number{
+    width: 300px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+input#Login{
+    margin-left: 50px;
+    width:200px;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight:600 ;
+    border: none;
+    background-color: #CDC7B8;
+    color:black;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3) ;
+}
+
+#Login:hover{
+    color:white;
+    background-color: black;
+}
+
+label,h2{
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
